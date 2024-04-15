@@ -1,0 +1,64 @@
+/* FORM */
+
+label{
+    padding: 2px;
+    font-size: 1em;
+
+}
+form{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    
+}
+input{
+    min-height: 80px;
+}
+textarea{
+    min-height: 80px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    padding: 10px 20px 10px 40px;
+}
+.indicador{
+    padding: 10px;
+    font-size: 1em;
+    color: green;
+}
+.containerInput{
+    padding: 15px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.containerButton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+/*ERROR OUTPUT*/
+
+.error-message
+{
+    padding: 10px;
+    background-color: darkred;
+    color: white;
+    font-size: 1em;
+    margin: 4px;
+    width: 90%;
+    border-radius: 8px;
+
+
+}
+.delete{
+    background-color: rgb(161, 15, 15);
+}
+
+.delete:hover{
+    background-color: rgb(250, 23, 23);
+}

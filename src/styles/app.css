@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    max-height: 40px;
+  }
+  
+  button:hover{
+    background-color: #45a049;
+
+  }
+  .contenedor-post{
+    max-width: 740px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  input[type="text"] {
+    width: 200px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    padding: 10px 20px 10px 40px;
+  }
+
+  
