@@ -2,6 +2,14 @@
 
 This project is a challenge that includes a web application developed with React and Redux on the frontend, and Node.js with Express and PostgreSQL on the backend.
 
+##DISCLAIMER
+In this project, I have maintained the basic CSS styling as an example. External libraries like Tailwind CSS, Bootstrap, or other CSS frameworks have not been utilized. This approach allows for a more straightforward understanding of CSS principles and serves as a learning experience for those new to web development.
+
+By avoiding the use of external libraries, the project demonstrates how to structure and style web pages using pure CSS. This includes defining styles for various HTML elements, such as headings, paragraphs, links, and layout components like containers, navigation menus, and footers.
+
+While libraries like Tailwind CSS and Bootstrap offer pre-built utility classes and components, this project aims to showcase the ability to write CSS from scratch, fostering a deeper understanding of the language and its capabilities.
+
+It's important to note that in real-world projects, the decision to use CSS frameworks or write custom CSS often depends on various factors, such as project complexity, team preferences, and performance considerations. However, learning the fundamentals of CSS through this example project can serve as a solid foundation for more advanced web development endeavors.
 ## Table of Contents
 
 - [Prerequisites](#prerequisites)
