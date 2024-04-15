@@ -1,15 +1,13 @@
 const express = require('express');
 const cors = require('cors');
 const path = require('path');
-const sequelize = require('./app/config/database');
-const Post = require('./app/models/post');
+const sequelize = require('../app/config/database');
+const Post = require('../app/models/post');
 const { Op } = require('sequelize');
 require('dotenv').config();
 
 //allowing only the frontend url to access the api
 const allowedOrigins = [process.env.REACT_APP_URL_API, process.env.REACT_APP_URL_API_LOCAL];
-
-console.log(allowedOrigins);
 //syncing the database
 const app = express();
 //allow with cors the frontend to access the api

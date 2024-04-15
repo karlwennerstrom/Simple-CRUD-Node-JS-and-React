@@ -2,6 +2,7 @@ import { useSelector } from "react-redux";
 import { fetchPosts, addNewPost, removePost } from "../features/posts/postSlice";
 import { useDispatch } from "react-redux";
 import { useState, useEffect } from 'react';
+import '../styles/postList.css';
 
 function PostList() {
   const [filteredPosts, setFilteredPosts] = useState([]);
@@ -37,7 +38,15 @@ function PostList() {
 
   return (
     <div>
+      <div className="searchContainer">
       <input type="text" placeholder="Filter..." value={searchTerm} onChange={handleSearch} />
+      <div  className="containerButton">
+        <button className="btn btn-primary" value={searchTerm}  onClick={handleSearch}>
+          Search
+        </button>
+      </div>
+      </div>
+ 
       {status === 'loading' ? (
         <div>Loading...</div>
       ) : status === 'succeeded' ? (
