@@ -50,8 +50,12 @@ npm install
 REACT_APP_URL_API=<YOUR_FRONTEND_URL>
 REACT_APP_URL_API_LOCAL=<YOUR_LOCAL_FRONTEND_URL>
 REACT_APP_PORT_API=<BACKEND_PORT>
+REACT_APP_DB_NAME=<YOUR_DB_NAME>
+REACT_APP_DB_USER=<YOUR_DB_USER>
+REACT_APP_DB_PASSWORD=<YOUR_DB_PASSWORD>
+REACT_APP_DB_HOST=<YOUR_DB_HOST>
 
-Replace `<YOUR_FRONTEND_URL>`, `<YOUR_LOCAL_FRONTEND_URL>`, and `<BACKEND_PORT>` with the appropriate values.
+Replace `<YOUR_FRONTEND_URL>`, `<YOUR_LOCAL_FRONTEND_URL>`, `<BACKEND_PORT>`, `<YOUR_DB_NAME>`, `<YOUR_DB_USER>`, `<YOUR_DB_PASSWORD>` and `<YOUR_DB_HOST>` with the appropriate values.
 
 5. Set up the PostgreSQL database (see [Database Setup](#database-setup) section).
 
@@ -61,11 +65,11 @@ npx sequelize-cli db:migrate
 
 7. Start the backend server:
 
-npm start
+node .\src\server\server
 
 ### Frontend Setup
 
-1. Navigate to the `frontend` directory from the project root:
+1. Navigate to the `frontend` directory from the project root located in  .\src:
 
 cd src
 
@@ -77,7 +81,7 @@ npm install
 
 npm start
 
-4. Open your browser and visit `http://localhost:3000` to see the application running.
+4. Open your browser and visit `http://localhost:3000` (with your host and port) to see the application running.
 
 ## Project Structure
 
