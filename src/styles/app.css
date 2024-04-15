@@ -37,6 +37,7 @@ body {
     background-color: #45a049;
 
   }
+  
   .contenedor-post{
     max-width: 740px;
     margin: 0 auto;
@@ -44,7 +45,8 @@ body {
   }
   
   input[type="text"] {
-    width: 200px;
+    max-width:500px;
+    width: 100%;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
@@ -53,4 +55,6 @@ body {
     padding: 10px 20px 10px 40px;
   }
 
-  
+  /* mobile */
+
+
