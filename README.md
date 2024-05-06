@@ -1,4 +1,4 @@
-# Challenge TCIT
+# Simple CRUD APP- NODE JS AND REACT - REDUX 
 
 This project is a challenge that includes a web application developed with React and Redux on the frontend, and Node.js with Express and PostgreSQL on the backend.
 
